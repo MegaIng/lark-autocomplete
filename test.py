@@ -44,7 +44,7 @@ class AutoCompleteTest:
             #transformer=self.parserTransformer,
         )
         self.completer = LarkCompleter(self.parser)
-        return self.parser, self.completer
+        return self.parser, self.completer.complete
 
     def run(self):
         p = self.parser
