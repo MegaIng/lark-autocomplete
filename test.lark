@@ -1,0 +1,17 @@
+// minimal grammar for testing autocomplete add-on class for Lark
+
+start: cmd
+cmd: FOO BAR foobar_arg?
+foobar_arg: BAZ
+  | BAM
+  | BRO
+
+FOO: "foo"
+BAR: "bar"
+BAZ: "baz"
+BAM: /bam[m]?/
+BRO: "bro"
+
+%import common.WS_INLINE
+%ignore WS_INLINE
+
