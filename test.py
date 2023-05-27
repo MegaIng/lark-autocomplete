@@ -6,6 +6,7 @@ Coded May 2023 by David McNab at https://github.com/davidmcnabnz
 Public domain, hope you find this useful, no warranty yada yada
 """
 import sys, os, pathlib
+import traceback
 try:
     from IPython import embed
 except ImportError:
