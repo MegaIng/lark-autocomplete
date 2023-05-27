@@ -59,7 +59,7 @@ class AutoCompleteTest:
         print("etc")
         print()
         print("ALSO - if you edit your grammar, you can reload it here by typing:")
-        print("p, c = reload()")
+        print("p, c = r()")
         print()
         print("Note - each of these calls to completer method 'c' returns a CompleteResult object")
         print("whose attribute 'token_options' is a set of legal token names which are legal in")

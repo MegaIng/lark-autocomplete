@@ -8,7 +8,7 @@ foobar_arg: BAZ
 FOO: "foo"
 BAR: "bar"
 BAZ: "baz"
-BAM: "bam"
+BAM: /bam[m]?/
 
 %import common.WS_INLINE
 %ignore WS_INLINE
